@@ -1,0 +1,10 @@
+/wiz-rescan
+
+# Working notes and the design history stay local.
+/tasks/
+/DESIGN.md
+
+# Recorded wizcli smoke runs come from a real tenant and stay local;
+# only the synthetic fixtures the tests read are tracked.
+/testdata/wizcli/*/
+!/testdata/wizcli/synthetic/
